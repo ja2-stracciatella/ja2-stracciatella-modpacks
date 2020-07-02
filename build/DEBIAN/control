@@ -1,0 +1,11 @@
+Package: ja2-stracciatella-modpacks
+Version: 0.0.1
+Section: games
+Priority: optional
+Architecture: all
+Essential: no
+Depends: ja2-stracciatella 
+Installed-Size: 1024
+Homepage: ja2-stracciatella.github.io
+Maintainer: JA2 Stracciatella Team <no-email@ja2-stracciatella.github.io>
+Description: A collection of community-created JA2 mods
