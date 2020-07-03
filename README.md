@@ -2,6 +2,8 @@
 
 This repository hosts the script to create the modpacks package in ZIP and DEB.
 
+Download the package [here](https://github.com/ja2-stracciatella/ja2-stracciatella-modpacks/releases/latest).
+
 ## Building the package
 
 You need `git`, `make`, `curl`, `zip`, `dpkg-deb`, and read access to GitHub.
