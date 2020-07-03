@@ -23,6 +23,6 @@ dpkg-deb --build "$PKG_ROOT" "ja2-stracciatella-modpacks_$PKG_VERSION.deb"
 echo "creating zipball"
 ZIPBALL="ja2-stracciatella-modpacks_$PKG_VERSION.zip"
 ( 
-  pushd "$ASSETS_ROOT/.."; zip -rq "$ZIPBALL" "mods/"
+  pushd "$ASSETS_ROOT/"; zip -rq "$ZIPBALL" *
 )
-mv "$ASSETS_ROOT/../$ZIPBALL" .
+mv "$ASSETS_ROOT/$ZIPBALL" .
